@@ -1,0 +1,132 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/* heade css */
+header{
+    height:60px;
+    width: 100%;
+    background-color: #634d35;
+    /* position: fixed; */
+
+}
+#icon{
+    float:left;
+    font-style: italic;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    weight: 50x
+}
+
+/* listing */
+#heading{
+    display: inline-block;
+    /* border: 2px solid black; */
+    width: 100%;
+    
+}
+
+#main{
+    display: inline-block;
+    /* border: 2px solid black; */
+    height: 800px;
+    width: 100%;
+}
+#subhead{
+    display:block;
+    font-size: 45px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.filter{
+    display: block;
+    height: 200px;
+    width: 15%;
+    /* background-color: rgba(228, 171, 171, 0.742); */
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 20%;
+    box-shadow: 10px 20px 10px gray;
+}
+.filitem{
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid black; */
+    border-radius: 20%;
+}
+.filitem>h2{
+    font-size: 20px;
+}
+input{
+        
+}
+#content{
+    display: block;
+    height: 700px;
+    width: 78%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.tile{
+    display: block;
+    height: 230px;
+    width: 250px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 20%;
+    box-shadow: 10px 20px 10px gray;
+}
+.tilecomponent1{
+    width: 100%;
+    height: 70%;
+      
+}
+.tilecomponent1>img{
+    width: 99.90%;
+    height: 100%;
+    border-radius:20%;
+}
+.tilecomponent2{
+    width: 100%;
+    height: 30%;
+    /* border:2px solid black; */
+    border-radius: 20%;
+      
+}
+.tilecomponent2>p{
+    font-size: 18px;
+    margin-left: 6%;  
+}
+footer{
+    margin-top: 5%;
+    height:120px;
+    width: 100%;
+    background-color: #ef9b5f;
+   
+
+}
+#footertext{
+    text-align: center;
+}
+#contact{
+    height: 70px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.noborder{
+    border: none;
+    text-align: center;
+}
