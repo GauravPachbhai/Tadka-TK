@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <title>Home-page</title>
+        <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <!--Header Section-->
+        <header>
+            <div id="icon">
+                <h1>Tadka's Kitchen</h1>
+
+            </div>
+            <div id="social">
+                <a href="www.facebook.com" target="_blank">
+                    <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fb" class="slogo"/>
+                </a>
+                <a href="www.facebook.com" target="_blank">
+                    <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="slogo"/>
+                </a>
+                <a href="www.facebook.com" target="_blank">
+                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="slogo"/>
+                </a>
+            </div>
+        
+        </header>
+        <!--Search Section-->
+        <div id="Search">
+           <div id="container">
+               <div id="logo">
+                   <span>TK</span>
+               </div>
+               <h2 id="heading">
+                Find The Best Restaurants Near You
+               </h2>
+               <div id="dropdown">
+                   <select id ="city" onChange="getreset()">
+                       <option>-----SELECT CITY-----</option>
+                   </select>
+                   <select id ="reselect">
+                       <option>----SELECT RESTRORANT-----</option>
+                   </select>
+               </div>
+           </div>
+        </div>
+        <!--QuickSearch Section-->
+        <div id="QuickSearch">
+            <div id="quickheading">
+                <span>QUICK SEARCH</span>
+            </div>
+            <div id="quicksubheading">
+                <span>Discover Restaurants By Meal</span>
+            </div>
+            <!-- tiles -->
+         <div id="main">
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div>
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div>  
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div> 
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div> 
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div> 
+            </div>
+            <div class="tilecontainer">
+                <div class="tilecomponent1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyzoV-gXMT-ZIRiJKD5r25nOJFUS3UUri1w&usqp=CAU" alt="dinner"/>
+                </div>
+                <div class="tilecomponent2">
+                    <div class="componentHeading">
+                        <a href="../listing/listing.html">Dinner</a>
+                    </div>
+                    <div class="componentSubHeading">
+                        Best Place For Food Near You
+                    </div>
+                </div> 
+            </div>
+            
+            
+         </div>
+        </div>
+        <!--Footer Section-->
+        <footer>
+            <p id="footertext">&copy; Web Developer</p>
+            <hr/>
+            <div id="contact">
+                <p>contact us</p>
+                <p>About us</p>
+            </div> 
+            <div id="contact">
+                <p>contact us</p>
+                <p>About us</p>
+            </div>
+            <div class="noborder">
+                <p>contact us</p>
+                <p>About us</p>
+            </div>
+        </footer>
+     
+    </body>
+    <script> 
+        window.onload = getcity()
+    </script>
+</html>

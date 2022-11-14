@@ -1,0 +1,173 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+/* heade css */
+header{
+    height:60px;
+    width: 100%;
+    background-color: #634d35;
+    /* position: fixed; */
+
+}
+#icon{
+    float:left;
+    font-style: italic;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    weight: 50x
+}
+/* search css */
+#Search{
+    height:600px;
+    width: 100%;
+    background-image: url('https://rs.projects-abroad.net/v1/hero/indian-cuisine-south-africa-food-tours-product-5e146c7a97eb2.[1600].jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#container{
+    /* border:2px solid black ; */
+    height:350px;
+    width: 60%;
+    margin-left:20%;
+    margin-top: 10%;
+    position:absolute;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 68, 0, 0.653);
+    margin: auto;
+    border-radius: 50%;
+}
+#logo>span{
+    font-size: 80px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left:2.5%;
+    font-family:"Brush Script MT";
+    font-style: italic;
+}
+#heading{
+    font-size: 50px;
+    color: #f9f4f4;
+    margin-left: 5%;
+}
+#dropdown{
+    float:left;
+    height:60px;
+    width: 98%;
+    margin-top: 2%;
+    margin-left: 8%;
+    
+    border-radius: 12 rem;
+
+}
+select{
+    height: 40px;
+    width:200px;
+    float: left;
+    text-align: center;
+    background-color: rgba(19, 18, 18, 0.742);
+    color: aliceblue;
+    border-radius: 12 rem;
+}
+#reselect{
+    width: 59%;
+    border-radius: 12 rem;
+    
+}
+/* ouickseaarch */
+#QuickSearch{
+    display:inline-block;
+    width: 80%;
+    margin-left: 16%;
+    margin-top: 2%;
+    /* border:2px solid yellow;  */
+
+}
+#quickheading{
+    display: block;
+    font-size:30px;
+    font-weight: bold;
+    margin-top: 5;
+    margin-left:2%;
+    color: #dc1009;
+}
+#quicksubheading{
+    display: block;
+    font-size:20px;
+
+    margin-top: 5;
+    margin-left:2%;
+    color: #7b5756;
+}
+.tilecontainer{
+    height: 150px;
+    width: 290px;
+    /* border:2px solid black; */
+    margin-top:2%;
+    margin-left:2%;
+    border-radius: 20%;
+    float:left;
+    box-shadow: 10px 20px 10px gray;
+}
+.tilecomponent1{
+  height: 180px;
+  width: 50%;
+  border-radius: 20%;
+  float: left;
+  
+}
+.tilecomponent1>img{
+  height:84%;
+  width: 100%;
+  border-radius: 20%;
+  
+  
+}
+.tilecomponent2{
+    width:45%;
+    margin-left:5%;
+    margin-top:15%;
+    float:left;
+}
+.componentHeading>a{
+    color: #f18c44;
+    font-size: 25px;
+}
+.componentSubHeading>{
+    color:#f18c44;
+    font-size:20px;
+
+}
+
+footer{
+    margin-top: 5%;
+    height:120px;
+    width: 100%;
+    background-color: #ef9b5f;
+   
+
+}
+#footertext{
+    text-align: center;
+}
+#contact{
+    height: 70px;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+}
+.noborder{
+    border: none;
+    text-align: center;
+}
