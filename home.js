@@ -19,9 +19,9 @@ function getcity(){
 function getreset(){
     let cityId = document.getElementById('city').value;
     let rest  = document.getElementById('reselect');
-    // while (rest.length >0){
-    //     rest.remove(0)
-    // }
+    while (rest.length >0){
+        rest.remove(0)
+    }
     fetch(`${restUrl},${cityId}`,{method:'GEt'})
     .then((rest) => rest.json())
     .then((data) => {
